@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/webview/webview"
+  ],
+  "window": {
+    "navigationBarTitleText": "纳指100·财富沙盘",
+    "navigationBarBackgroundColor": "#0a0e17",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#0a0e17",
+    "backgroundTextStyle": "dark"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}
