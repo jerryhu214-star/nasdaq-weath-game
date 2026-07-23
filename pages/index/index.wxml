@@ -1,0 +1,43 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="title">纳指100·财富沙盘</view>
+    <view class="subtitle">二十年定投模拟器</view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">游戏介绍</view>
+    <view class="desc">
+      回到2005年，你有一笔启动资金，可以选择定投标普500或纳斯达克100。在20年的波动中，你将经历牛市、熊市、暴跌和反弹。每年你可以做出加仓、卖出或持有的决策。
+    </view>
+    <view class="desc">
+      最终，看看你的财富增长了多少——以及，你能不能拿得住。
+    </view>
+  </view>
+
+  <view class="card">
+    <view class="card-title">你会经历</view>
+    <view class="feature">
+      <text class="feature-icon">📈</text>
+      <text>2005-2025年真实历史行情</text>
+    </view>
+    <view class="feature">
+      <text class="feature-icon">📊</text>
+      <text>定投 vs 一次性投入对比</text>
+    </view>
+    <view class="feature">
+      <text class="feature-icon">🎯</text>
+      <text>每年买卖决策，考验你的心态</text>
+    </view>
+    <view class="feature">
+      <text class="feature-icon">💰</text>
+      <text>最终财富排行，看看你排第几</text>
+    </view>
+  </view>
+
+  <button class="start-btn" bindtap="startGame">开始游戏</button>
+
+  <view class="footer">
+    <text>老胡定投日记 · 投资有风险，入市需谨慎</text>
+  </view>
+</view>
