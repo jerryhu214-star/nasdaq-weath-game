@@ -1,0 +1,83 @@
+/* pages/index/index.wxss */
+.container {
+  padding: 0 20px 40px;
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 40px 0 24px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: 800;
+  background: linear-gradient(135deg, #00d4aa 0%, #ffd700 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: #8892a6;
+  margin-top: 8px;
+}
+
+.card {
+  background: #131822;
+  border: 1px solid #252d3f;
+  border-radius: 16px;
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 14px;
+  color: #00d4aa;
+}
+
+.desc {
+  font-size: 14px;
+  color: #8892a6;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.feature-icon {
+  font-size: 20px;
+}
+
+.start-btn {
+  background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%);
+  color: #0a0e17;
+  border: none;
+  border-radius: 12px;
+  padding: 16px 0;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 24px 0 16px;
+  width: 100%;
+}
+
+.start-btn:active {
+  transform: scale(0.98);
+  opacity: 0.9;
+}
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+  color: #8892a6;
+  padding: 16px 0;
+}
